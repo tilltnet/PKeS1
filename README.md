@@ -1,2 +1,91 @@
-# PKeS1
-This repository holds the course *PKeS1* , which can be rendered by liaScript. The course is part of the lecture *Principles and components* of embedded Systems* at the Otto-von-Guericke University in Magdeburg. 
+<!--
+
+author:   Konstantin Kirchheim
+
+email:    konstantin.kirchheim@ovgu.de
+
+version:  1.0.0
+
+language: en_US
+
+narator:  US English Female
+
+-->
+
+# Aufgabe 1
+--{{1}}--
+In der *ersten* praktischen Aufgabe sollt ihr zunächst einen Treiber für das 8-Segment-Display implementieren, bevor ihr in der zweiten Teilaufgabe basierend auf diesem Treiber einen Zähler auf diesem Display darstellt. 
+
+
+
+
+## Aufgabe 1.1 
+
+**Ziel:**
+Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiberentwicklung für eingebettete Systeme zu geben. Zusätzlich sollt ihr das Arbeiten mit den Datenblättern lernen.  
+
+
+**Teilschritte:**
+
+1. Zunächst müsst ihr das Macro `PKES_TASK` auf den Wert `1` setzten, damit der Code der ersten Aufgabe in das Kompilat übernommen wird.  
+
+
+
+``` c
+#define PKES_TASK		(1)
+
+// ... 
+
+#if PKES_TASK >= 1
+	// some code for task 1 
+#endif 
+```
+
+2. Lest und versteht den Code der Vorlage. 
+
+3. Recherchiert in den Datenblättern, wie das Display angesteuert werden kann
+
+4. Implementiert die Grundfunktion `void writeDigitsToDisplay(char digit1, char digit2, char digit3)` 
+
+5. Implementiert die erweiterten Funktionen  `void writeValueToDisplay(int value)` und `void writeValueToDisplay(float value, char dec)`. Diese sollen  den Funktionsaufruf lediglich an die Grundfunktion weiterreichen. 
+
+
+
+
+
+
+## Aufgabe 1.2 
+
+**Ziel:**
+Ihr habt diese Aufgabe erfolgreich abgeschlossen, wenn euer Bot einen Zähler von -99 bis 99 anzeigt. Bei einem Überlauf soll der Zähler zum entgegengesetzten maximalwert springen. Der Zähler soll sich immer um den Wert in der lokalen variable `step_res` verändern. 
+
+
+**Teilschritte:**
+
+1. Lest und versteht den Code in der Vorlage 
+
+2. Implementiert die Funktion `signed char refreshIntCounter(signed char counter)`. Ihr könnt euch dabei an der Funktion `float refreshFloatCounter(float counter)` orientieren. 
+
+
+
+
+## Bonusaufgabe 1.3
+
+Sorgt dafür, dass der Zähler aus der vorherigen Aufgabe auch dann funktioniert, wenn man der  `step_res` Variable negative Werte zuweist.  
+
+
+
+
+## Weitere Informationen  
+
+* Datenblatt Display
+* <a href="https://de.wikipedia.org/wiki/Zweierkomplement">Zweierkomplement</a>
+
+**Tip:**
+Ihr könnt euch den binären Wert einer Variable wie folgt ausgeben lassen: 
+
+``` c
+Serial.print(var, 2); 
+```
+ 
+
