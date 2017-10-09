@@ -8,7 +8,7 @@ version:  1.0.0
 
 language: de_DE
 
-narrator:  Deutsch Female
+narator:  Deutsch Female
 
 -->
 
@@ -42,8 +42,14 @@ Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dies
 **Treiber und Treiberentwicklung:**
 
 * [Treiber](https://en.wikipedia.org/wiki/Device_driver)
-
 * Datenblatt Display
+
+
+
+**Assembler**
+* [AVR GCC Inline Assembler Cookbook](http://www.nongnu.org/avr-libc/user-manual/inline_asm.html)
+
+**Debugging**
 * [Zweierkomplement](https://de.wikipedia.org/wiki/Zweierkomplement)
 * [Serial.print()](https://www.arduino.cc/en/Serial/Print)
 
@@ -69,11 +75,8 @@ Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiber
 **Teilschritte:**
 
 1. Zunächst müsst ihr das Macro `PKES_TASK` auf den Wert `1` setzten, damit der Code der ersten Aufgabe in das Kompilat übernommen wird.
-
-
-
 ``` c
-#define PKES_TASK		(1)
+#define PKES_TASK		(1) // <-- change here 
 
 // ... 
 
@@ -81,14 +84,17 @@ Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiber
 	// some code for task 1 
 #endif 
 ```
-
 2. Lest und versteht den Code der Vorlage. 
 
-3. Recherchiert in den Datenblättern, wie das Display angesteuert werden kann
+3. Recherchiert in den Datenblättern, wie das Display angesteuert werden kann.
 
-4. Implementiert die Grundfunktion `void writeDigitsToDisplay(char digit1, char digit2, char digit3)` 
+4. Implementiert die Grundfunktion
+   * `void writeDigitsToDisplay(char digit1, char digit2, char digit3)` 
 
-5. Implementiert die erweiterten Funktionen  `void writeValueToDisplay(int value)` und `void writeValueToDisplay(float value, char dec)`. Diese sollen  den Funktionsaufruf lediglich an die Grundfunktion weiterreichen. 
+5. Implementiert die erweiterten Funktionen  
+   * `void writeValueToDisplay(int value)` 
+   * `void writeValueToDisplay(float value, char dec)`
+   Diese sollen  den Funktionsaufruf lediglich an die Grundfunktion weiterreichen. 
 
 
 
@@ -108,7 +114,10 @@ Ihr habt diese Aufgabe erfolgreich abgeschlossen, wenn euer Bot einen Zähler vo
 
 1. Lest und versteht den Code in der Vorlage 
 
-2. Implementiert die Funktion `signed char refreshIntCounter(signed char counter)`. Ihr könnt euch dabei an der Funktion `float refreshFloatCounter(float counter)` orientieren. 
+2. Implementiert die Funktion 
+   * `signed char refreshIntCounter(signed char counter)`
+   in **Assembler**. 
+   Ihr könnt euch dabei an der Funktion `float refreshFloatCounter(float counter)` orientieren. 
 
 
 
