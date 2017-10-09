@@ -119,17 +119,3 @@ Sorgt dafür, dass der Zähler aus der vorherigen Aufgabe auch dann funktioniert
 
 
 
-
-## Weitere Informationen  
-
-* Datenblatt Display
-* <a href="https://de.wikipedia.org/wiki/Zweierkomplement">Zweierkomplement</a>
-
-**Tip:**
-Ihr könnt euch den binären Wert einer Variable wie folgt ausgeben lassen: 
-
-``` c
-Serial.print(var, 2); 
-```
- 
-
