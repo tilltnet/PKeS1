@@ -6,28 +6,69 @@ email:    konstantin.kirchheim@ovgu.de
 
 version:  1.0.0
 
-language: en_US
+language: de_DE
 
-narator:  US English Female
+narrator:  Deutsch Female
 
 -->
 
+# Einführung
+
+--{{1}}--
+Willkommen zurück im eLearning-System *eLab*. Da ihr euch während der letzten Aufgabe sowohl mit dem System, als auch mit dem Arbeitsablauf vertraut machen konntet, wird es in dieser Aufgabe darum gehen, tiefer in die Programmierung eingebetteter Systeme einzudringen. 
+
+--{{2}}--
+Ein wesentliches Merkmal eingebetteter Systeme ist, dass sie durch periphäre Hardware mit ihrer Umgebung interagieren können. Dafür müssen diese Hardwarekomponenten jedoch in Software repräsentiert und angesprochen werden können. Wie auch bei einem Desktop-Computer, geschieht dies bei eingebetteten Systemen durch Treiber.
+
+--{{3}}--
+Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dieser Aufgabe darum gehen, die Funktionalität zur Ansteuerung eines 8-Segment-Displays zu Implementieren.
+
+
+## Themen und Ziele
+
+**Themen:**
+
+* Ansteuerung periphärer Geräte durch einen Mikrocontroller
+* Kapselung Gerätespezifischer Informationen in abstrahierenden Funktionen (Treiberentwicklung)
+* Nutzung von Treibern zur Umsetzung einfacher Funktionalitäten
+
+**Ziel(e):**
+
+* Programmierung von Hardwareschnittstellen
+
+
+## Weitere Informationen
+
+**Treiber und Treiberentwicklung:**
+
+* [Treiber](https://en.wikipedia.org/wiki/Device_driver)
+
+* Datenblatt Display
+* [Zweierkomplement](https://de.wikipedia.org/wiki/Zweierkomplement)
+* [Serial.print()](https://www.arduino.cc/en/Serial/Print)
+
+
 # Aufgabe 1
+
 --{{1}}--
 In der *ersten* praktischen Aufgabe sollt ihr zunächst einen Treiber für das 8-Segment-Display implementieren, bevor ihr in der zweiten Teilaufgabe basierend auf diesem Treiber einen Zähler auf diesem Display darstellt. 
 
+**Teilaufgaben:**
 
+* *1.1:* Implementiert die Grundfunktionalität zum Ansteuern des 8-Segment-Displays.
+* *1.2:* Implementiert einen Zähler, der den auf dem 8-Segment-Display angezeigten Wert kontinuierlich inkrementiert.
+* *(1.3:)* Macht den Zähler robust.
 
 
 ## Aufgabe 1.1 
 
 **Ziel:**
-Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiberentwicklung für eingebettete Systeme zu geben. Zusätzlich sollt ihr das Arbeiten mit den Datenblättern lernen.  
+Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiberentwicklung für eingebettete Systeme zu geben. Zusätzlich sollt ihr das Arbeiten mit den Datenblättern lernen.
 
 
 **Teilschritte:**
 
-1. Zunächst müsst ihr das Macro `PKES_TASK` auf den Wert `1` setzten, damit der Code der ersten Aufgabe in das Kompilat übernommen wird.  
+1. Zunächst müsst ihr das Macro `PKES_TASK` auf den Wert `1` setzten, damit der Code der ersten Aufgabe in das Kompilat übernommen wird.
 
 
 
@@ -48,6 +89,9 @@ Das Ziel der Aufgabe ist es, euch eine Einführung in die Grundlagen der Treiber
 4. Implementiert die Grundfunktion `void writeDigitsToDisplay(char digit1, char digit2, char digit3)` 
 
 5. Implementiert die erweiterten Funktionen  `void writeValueToDisplay(int value)` und `void writeValueToDisplay(float value, char dec)`. Diese sollen  den Funktionsaufruf lediglich an die Grundfunktion weiterreichen. 
+
+
+
 
 
 
