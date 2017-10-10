@@ -42,7 +42,7 @@ Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dies
 **Treiber und Treiberentwicklung:**
 
 * [Treiber](https://en.wikipedia.org/wiki/Device_driver)
-* Datenblatt Display
+* [Datenblatt Display](https://media.digikey.com/pdf/Data%20Sheets/Lite-On%20PDFs/LTM-8522HR.pdf)
 
 
 
