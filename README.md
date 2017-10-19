@@ -8,7 +8,7 @@ version:  1.0.0
 
 language: de_DE
 
-narator:  Deutsch Female
+narrator:  Deutsch Female
 
 -->
 
