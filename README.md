@@ -14,8 +14,10 @@ narrator:  Deutsch Female
 
 # Einführung
 
+Willkommen zurück im eLearning-System *eLab*.
+
 --{{1}}--
-Willkommen zurück im eLearning-System *eLab*. Da ihr euch während der letzten Aufgabe sowohl mit dem System, als auch mit dem Arbeitsablauf vertraut machen konntet, wird es in dieser Aufgabe darum gehen, tiefer in die Programmierung eingebetteter Systeme einzudringen. 
+Da ihr euch während der letzten Aufgabe sowohl mit dem System, als auch mit dem Arbeitsablauf vertraut machen konntet, wird es in dieser Aufgabe darum gehen, tiefer in die Programmierung eingebetteter Systeme einzudringen. 
 
 --{{2}}--
 Ein wesentliches Merkmal eingebetteter Systeme ist, dass sie durch periphäre Hardware mit ihrer Umgebung interagieren können. Dafür müssen diese Hardwarekomponenten jedoch in Software repräsentiert und angesprochen werden können. Wie auch bei einem Desktop-Computer, geschieht das durch Treiber.
@@ -26,11 +28,23 @@ Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dies
 
 ## Themen und Ziele
 
+--{{1}}--
+Die Themen, die durch die Treiberentwicklung am Beispiel des 8-Segment-Displays adressiert werden sollen, umfassen zunächst die Ansteuern von periphären Geräten, im speziellen aber Shift-Register und Displays.
+
+--{{2}}--
+Darüber hinaus soll durch die Treiberentwicklung ein Verständnis für die abstrahierenden Funktionen von Treibern und ihren Beitrag zur Stukturierung von Programmen dargestellt werden. 
+
+--{{3}}--
+Letztlich bietet ein Treiber eine Schnittstelle, an der weiter Programme und Funktionen ansätzen können. Daher soll dadurch auch die Thematik einer API angeschnitten werden.
+
 **Themen:**
 
 * Ansteuerung von Displays und Shift-Registern
 * Kapselung Gerätespezifischer Informationen in abstrahierenden Funktionen (Treiberentwicklung)
 * Implementierung entsprechend einer gegebenen API
+
+--{{4}}--
+Ganz praktisch besteht das Ziel darin, euch die Programmierung einer Hardwarschnittstelle und das Bereitstellen einer API näher zu bringen.
 
 **Ziel(e):**
 
@@ -39,12 +53,23 @@ Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dies
 
 ## Weitere Informationen
 
+--{{1}}--
+Wie immer möchten wir euch weitere Hintergrundinformationen um das Thema Treiber und Treiberentwicklung geben.
+
+--{{2}}--
+Da es, je nach Hardware und benötigter Performanz, auch nötig sein kann Assembler zu programmieren, haben wir zusätzlich drei Links zur Thematik der Assemblerprogrammierung hinzugefügt.
+
 **Treiber und Treiberentwicklung:**
 
 * [Treiber](https://en.wikipedia.org/wiki/Device_driver)
+* [Buch zur Treiberentwicklung unter Linux (leider etwas veraltet)](http://free-electrons.com/doc/books/ldd3.pdf)
+* [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+
+**Assembler**
+* [Einführung in Assembler](https://www.tutorialspoint.com/assembly_programming/assembly_introduction.htm)
 * [AVR GCC Inline Assembler Cookbook](http://www.nongnu.org/avr-libc/user-manual/inline_asm.html)
 * [YouTube-Tutorial zur Assemblerprogrammierung](https://www.youtube.com/watch?v=ViNnfoE56V8)
-* [API](https://en.wikipedia.org/wiki/Application_programming_interface)
+
 
 **PKeS**
 * [Schaltbelegungsplan](https://github.com/liaScript/PKeS0/blob/master/materials/robubot_stud.pdf?raw=true)
@@ -96,7 +121,7 @@ Während der Untersuchung des Datenflusses, sind euch sicherlich die [Shift-Regi
 --{{5}}--
 Nachdem nun die theoretischen Fragen zu den von dieser Aufgabe betroffenen Bauteilen geklärt sein sollten, können wir mit der Implementierung beginnen. 
 
---{6}}--
+--{{6}}--
 Wie schon angedeutet, soll die in `Display.h` deklariert API implementiert werden. Dazu solltet ihr eine Datei `Display.cpp`, sowie beliebige weitere Dateien, anlegen.
 
 --{{7}}--
@@ -113,15 +138,15 @@ Das Ziel in dieser Aufgabe ist es, den Datenfluss, der zur Ansteuerung des Displ
 
 1. Verständniss des Datenflusses.
    * Wie wird ein einzelnes Segment angesteuert?
-     ![8SegmentDisplay](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/8SegmentDisplay.png)<!-- width: 100px; --> => ![ShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ShiftRegister.png)<!-- width: 100px; --> => ![ConnectionBetweenShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ConnectionBetweenShiftRegisters.png)<!-- width: 100px; -->
-   
    * Zusätzlich solltet ihr das [Datenblatt des Displays](http://www.kingbrightusa.com/images/catalog/SPEC/SA52-11SRWA.pdf) studieren um zu verstehen, wie die Eingänge des Displays den einzelnen LEDs zugeordnet sind.
    
+
 2. Implementierung der Funktion `initDisplay()`
    * Welche PINs müssen als Ausgänge definiert werden?
    * Wie können wir einen *default*-Wert, z.B.: '===', in die Shift-Register übertragen?
    * Wodurch können wir die Anzeige der Werte auf dem Display veranlassen?
    
+
 3. Implementierung der Funktion `writeToDisplay(uint8_t data[3])`
    * Übertragt die drei Byte des Arrays in die Shift-Register und zeigt die Werte auf dem Display an.
 
@@ -148,8 +173,6 @@ Vervollständigt die Implementierung der API in dem ihr die Funktionen `writeVal
 2. Wiederholt die Schritte aus **1.** für den `float`-Datentyp.
 
 
-
-
 ## Aufgabe 1.3
 
 --{{1}}--
@@ -171,4 +194,42 @@ Zusätzlich kann es hilfreich sein dem Interface noch ein Text-Input zu direkten
 **Teilschritte:**
 1. Fügt eine CheckBox zum Wechseln zwischen `float` und `int`-Darstellung
 2. Zeigt die Ganz- und Gleitkommazahlen auf dem Display an.
+
+# Quizze
+
+--{{1}}--
+Wie auch in der letzten Aufgabe, haben wir noch ein paar kurze Fragen an euch, die ihr in Vorbereitung der Abgabe der Aufgabe bei den Tutoren klären solltet.
+
+## C/C++
+
+Welche der folgenden Funktionen könnten in einem hypothetischen C Programm parallel zu der Funktion `void fun1(int a)` definiert sein?
+
+[[ ]] `int fun1(int a)`
+[[ ]] `void fun1(float a)`
+[[X]] `void fun2(float a)`
+[[ ]] `void fun1(void)`
+
+Welche der folgenden Funktionen könnten in einem hypothetischen C++ Programm parallel zu der Funktion `void fun1(int a)` definiert sein?
+
+[[ ]] `int fun1(int a)`
+[[X]] `void fun1(float a)`
+[[X]] `void fun2(float a)`
+[[X]] `void fun1(void)`
+[[[
+
+Im Gegensatz zu C, können in C++ Funktionen [überladen](https://www.tutorialspoint.com/cplusplus/cpp_overloading.htm) werden. Somit können Funktionen mit verschiedenen Argumenten definiert werden. Der Datentyp des Rückgabewertes kann jedoch nicht überladen werden!
+
+]]]
+
+## Shift-Register und 8-Segment-Display
+
+Welches Muster wird auf dem Display dargestellt, wenn drei Shift-Register die Werte `0b01001011`, `0b01001011` und `0b01001011` beinhalten?
+
+[(X)] 444
+[( )] 555
+[( )] 666
+
+
+
+
 
