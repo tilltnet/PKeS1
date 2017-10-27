@@ -50,10 +50,10 @@ Zur Einführung in die Treiberentwicklung eingebetteter Systeme, wird es in dies
 * [Schaltbelegungsplan](https://github.com/liaScript/PKeS0/blob/master/materials/robubot_stud.pdf?raw=true)
 * 8-Segmente Anzeige:
   * [Wikipedia](https://en.wikipedia.org/wiki/Seven-segment_display)
-  * [Datenblatt] (http://www.kingbrightusa.com/images/catalog/SPEC/SA52-11SRWA.pdf)
+  * [Datenblatt](http://www.kingbrightusa.com/images/catalog/SPEC/SA52-11SRWA.pdf)
 * [Shift-Register](https://www.sparkfun.com/datasheets/IC/SN74HC595.pdf)
-* [Arduinoview] (https://github.com/fesselk/Arduinoview/blob/master/doc/Documetation.md)
-* [Datenblatt des AVR ATmega32U4] (http://www.atmel.com/Images/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
+* [Arduinoview](https://github.com/fesselk/Arduinoview/blob/master/doc/Documetation.md)
+* [Datenblatt des AVR ATmega32U4](http://www.atmel.com/Images/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf)
 
 # Aufgabe 1
 
@@ -113,7 +113,7 @@ Das Ziel in dieser Aufgabe ist es, den Datenfluss, der zur Ansteuerung des Displ
 
 1. Verständniss des Datenflusses.
    * Wie wird ein einzelnes Segment angesteuert?
-     ![8SegmentDisplay](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/8SegmentDisplay.png) => ![ShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ShiftRegister.png) => ![ConnectionBetweenShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ConnectionBetweenShiftRegisters.png)
+     ![8SegmentDisplay](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/8SegmentDisplay.png)<!-- width: 100px; --> => ![ShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ShiftRegister.png)<!-- width: 100px; --> => ![ConnectionBetweenShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ConnectionBetweenShiftRegisters.png)<!-- width: 100px; -->
    
    * Zusätzlich solltet ihr das [Datenblatt des Displays](http://www.kingbrightusa.com/images/catalog/SPEC/SA52-11SRWA.pdf) studieren um zu verstehen, wie die Eingänge des Displays den einzelnen LEDs zugeordnet sind.
    
