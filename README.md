@@ -113,7 +113,7 @@ Das Ziel in dieser Aufgabe ist es, den Datenfluss, der zur Ansteuerung des Displ
 
 1. Verständniss des Datenflusses.
    * Wie wird ein einzelnes Segment angesteuert?
-     ![8SegmentDisplay]() => ![ShiftRegister]() => ![ConnectionBetweenShiftRegister]()
+     ![8SegmentDisplay](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/8SegmentDisplay.png) => ![ShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ShiftRegister.png) => ![ConnectionBetweenShiftRegister](https://raw.githubusercontent.com/liaScript/PKeS1/master/materials/ConnectionBetweenShiftRegisters.png)
    
    * Zusätzlich solltet ihr das [Datenblatt des Displays](http://www.kingbrightusa.com/images/catalog/SPEC/SA52-11SRWA.pdf) studieren um zu verstehen, wie die Eingänge des Displays den einzelnen LEDs zugeordnet sind.
    
