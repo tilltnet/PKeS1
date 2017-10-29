@@ -235,14 +235,14 @@ Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
 Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
 
-[(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+[(:überhaupt nicht)(:_2_)(:_3_)(:_4_)(:voll und ganz)]
 [                                                  ]  war interessant.
 [                                                  ] ... hat mir Spaß gemacht.
 [                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
 [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
 [                                                  ] ... hat mir gefallen.
 
-[(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+[(:überhaupt nicht)(:a)(:b)(:c)(:voll und ganz)]
     [                                                  ] liaScript is great?
     [                                                  ] I would use it to make online **courses**?
     [                                                  ] I would use it for online **surveys**?
