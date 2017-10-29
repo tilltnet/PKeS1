@@ -233,7 +233,7 @@ Welches Muster wird auf dem Display dargestellt, wenn drei Shift-Register die We
 Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
 Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
-[(:&uuml;berhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+[(:ueberhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
     [                                                  ] war interessant.
     [                                                  ] hat mir Spaß gemacht.
     [                                                  ] hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
