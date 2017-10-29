@@ -233,7 +233,7 @@ Welches Muster wird auf dem Display dargestellt, wenn drei Shift-Register die We
 Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
 Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
-[(:ueberhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+[(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
     [                                                  ] war interessant.
     [                                                  ] hat mir Spaß gemacht.
     [                                                  ] hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
@@ -243,7 +243,7 @@ Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
 Die Arbeit mit den Robotern...
 
-[(:&uuml;berhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+[(:gar nicht)(:2)(:3)(:4)(:voll und ganz)]
     [                                                  ] war interessant.
     [                                                  ] hat mir Spaß gemacht.
     [                                                  ] hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
@@ -280,5 +280,3 @@ Welche Hilfsmittel (z.B. Webseiten etc.) haben Sie bei der Bearbeitung der Aufga
 Welche zusätzliche Hilfsmittel für diese Aufgabe sollten bereits im RemoteLab integriert sein?
 
 [[___ ___ ___ ___]]
-
-
