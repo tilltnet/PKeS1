@@ -235,14 +235,53 @@ Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
 Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
 
-[(:überhaupt nicht)(:_2_)(:_3_)(:_4_)(:voll und ganz)]
-[                                                  ]  war interessant.
-[                                                  ] ... hat mir Spaß gemacht.
-[                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
-[                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
-[                                                  ] ... hat mir gefallen.
+Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
+Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
-[(:überhaupt nicht)(:a)(:b)(:c)(:voll und ganz)]
-    [                                                  ] liaScript is great?
-    [                                                  ] I would use it to make online **courses**?
-    [                                                  ] I would use it for online **surveys**?
+[(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+    [                                                  ] ... war interessant.
+    [                                                  ] ... hat mir Spaß gemacht.
+    [                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
+    [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
+    [                                                  ] ... hat mir gefallen.
+	[                                                  ] Solche Aufgaben würde ich gerne öfter bearbeiten.
+
+Die Arbeit mit den Robotern...
+
+[(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
+    [                                                  ] ... war interessant.
+    [                                                  ] ... hat mir Spaß gemacht.
+    [                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
+    [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
+    [                                                  ] ... hat mir gefallen.
+	[                                                  ] ... würde ich gerne weiterführen.
+
+
+Beurteilen Sie nun bitte folgende Aussagen zu der Aufgabe.
+
+[(:stimme gar nicht zu)(:2)(:3)(:4)(:stimme voll zu)]
+    [                                                  ]Die Inhalte der Aufgabe waren für mich schwierig zu verstehen.
+    [                                                  ]Bei der Bearbeitung der Aufgabe habe ich sehr viel kognitive Anstrengung investiert.
+    [                                                  ]Inhaltlich war die Bearbeitung der Aufgaben für mich sehr anspruchsvoll.
+    [                                                  ]Ich habe mich bei der Bearbeitung der Aufgaben sehr konzentriert.
+    [                                                  ]Die Komplexität der Inhalte war sehr hoch.
+
+
+          
+Hatten Sie Schwierigkeiten bei der Bearbeitung der Aufgabe? Bitte beschreiben Sie diese kurz:
+
+[[___ ___ ___ ___]]
+
+
+Hätten Sie sich an einer bestimmten Stelle Unterstützung gewünscht? Wenn ja, wobei hätten Sie Unterstützung benötigt?
+
+[[___ ___ ___ ___]]
+
+
+Welche Hilfsmittel (z.B. Webseiten etc.) haben Sie bei der Bearbeitung der Aufgabe genutzt? Bitte geben Sie wenn möglich die URL an!
+
+[[___ ___ ___ ___]]
+
+Welche zusätzliche Hilfsmittel für diese Aufgabe sollten bereits im RemoteLab integriert sein?
+
+[[___ ___ ___ ___]]
