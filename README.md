@@ -242,3 +242,7 @@ Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
 [                                                  ] ... hat mir gefallen.
 
+ [(:totally)(:agree)(:unsure)(:maybe not)(:disagree)]
+    [                                                  ] liaScript is great?
+    [                                                  ] I would use it to make online **courses**?
+    [                                                  ] I would use it for online **surveys**?
