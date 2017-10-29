@@ -230,31 +230,26 @@ Welches Muster wird auf dem Display dargestellt, wenn drei Shift-Register die We
 [( )] 666
 
 ## Fragebogen
-
-Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
-Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
-
-
 Inwiefern stimmen Sie folgenden Aussagen zur Arbeit mit dem RemoteLab zu?
 Die Aufgabe, die mit dem RemoteLab zu bearbeiten, ...
 
 [(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
-    [                                                  ] ... war interessant.
-    [                                                  ] ... hat mir Spaß gemacht.
-    [                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
-    [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
-    [                                                  ] ... hat mir gefallen.
+    [                                                  ] war interessant.
+    [                                                  ] hat mir Spaß gemacht.
+    [                                                  ] hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
+    [                                                  ] hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
+    [                                                  ] hat mir gefallen.
 	[                                                  ] Solche Aufgaben würde ich gerne öfter bearbeiten.
 
 Die Arbeit mit den Robotern...
 
 [(:überhaupt nicht)(:2)(:3)(:4)(:voll und ganz)]
-    [                                                  ] ... war interessant.
-    [                                                  ] ... hat mir Spaß gemacht.
-    [                                                  ] ... hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
-    [                                                  ] ... hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
-    [                                                  ] ... hat mir gefallen.
-	[                                                  ] ... würde ich gerne weiterführen.
+    [                                                  ] war interessant.
+    [                                                  ] hat mir Spaß gemacht.
+    [                                                  ] hat mich neugierig auf die weitere Beschäftigung mit den Inhalten der LV gemacht.
+    [                                                  ] hat mich motiviert, mich mit den Inhalten der LV zu beschäftigen.
+    [                                                  ] hat mir gefallen.
+	[                                                  ] würde ich gerne weiterführen.
 
 
 Beurteilen Sie nun bitte folgende Aussagen zu der Aufgabe.
@@ -285,3 +280,4 @@ Welche Hilfsmittel (z.B. Webseiten etc.) haben Sie bei der Bearbeitung der Aufga
 Welche zusätzliche Hilfsmittel für diese Aufgabe sollten bereits im RemoteLab integriert sein?
 
 [[___ ___ ___ ___]]
+
